@@ -15,4 +15,7 @@ package-install:
 
 package-reinstall:
 	python3 -m pip install --user --force-reinstall python-project-49/dist/*.whl
+
+lint:
+	poetry run flake8 brain_games
         
